@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App .App-header {
+  width: 100vw;
+  height: 10vh;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.App .App-header .header_content img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.App .App-header .header_content h1 {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+
+.App main {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+}
+
+.App main .main_form {
+    width: 200px;
+    height: 150px;
+    
+}
+
+.App main .main_form .main_input {
+  font-size: 16px;
+  font-size: max(16px, 1em);
+  font-family: inherit;
+  padding: 0.25em 0.5em;
+  background-color: #fff;
+  border: 2px solid var(--input-border);
+  border-radius: 4px;
+}
+
+.App main .main_form button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.App main .main_form .dropdown_main {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.App main .main_form .dropdown_main img {
+  height: 30px;
+  width: 30px;
+}
+
+footer {
+  height: 20vh;
+  background-color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .footer_text {
+  font-size: 400;
+  color: #FFFFFF;
+}
